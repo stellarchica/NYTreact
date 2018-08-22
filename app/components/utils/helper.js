@@ -33,7 +33,7 @@ var helper = {
     }, 
 
     postSaved: function(title, link, date) {
-        return axios.post('/api/saved', {'title': title, 'link': link, 'date': date})
+        return axios.post("/api/saved", {"title": title, "link": link, "date": date})
         .then(function(results){
             console.log(results);
             return results;
@@ -41,11 +41,11 @@ var helper = {
     },
 
     deleteSaved: function(title, link, date){
-        return axios.delete('/api/delete', {
+        return axios.delete("/api/delete", {
             params: {
-                'title': title,
-                'link': link,
-                'date': date
+                "title": title,
+                "link": link,
+                "date": date
             }
         })
         .then(function(results){
