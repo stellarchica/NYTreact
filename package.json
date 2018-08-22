@@ -21,6 +21,8 @@
     "body-parser": "^1.18.3",
     "exphbs": "^1.2.0",
     "mongojs": "^2.6.0",
-    "mongoose": "^5.2.9"
+    "mongoose": "^5.2.9",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
