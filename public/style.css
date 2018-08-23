@@ -1,0 +1,14 @@
+.displayarticle {
+    margin: 10px;
+}
+
+.txthead {
+    margin: 30px;
+    color: white;
+}
+
+body {
+    background-color: grey;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
